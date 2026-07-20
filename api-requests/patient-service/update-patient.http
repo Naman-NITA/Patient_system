@@ -1,0 +1,13 @@
+### update to example server
+PUT http://localhost:4000/patients/1b899cd4-5465-4cd9-b29d-110f5bf79c06
+Content-Type: application/json
+
+{
+  "name": "Nishajhunt",
+  "email": "srdeicnsjej@gmail.com",
+  "address": "chehuhg",
+  "dateOfBirth": "2002-01-18",
+  "registeredDate": "2026-07-16"
+}
+
+###
