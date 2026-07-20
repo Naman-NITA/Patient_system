@@ -40,7 +40,6 @@ public class PatientController {
     }
 
     @PostMapping
-    @Operation(summary = "Create a new Patient")
     public ResponseEntity<PatientResponseDTO> createPatient(
             @Valid
             @RequestBody PatientRequestDTO patientRequestDTO) {

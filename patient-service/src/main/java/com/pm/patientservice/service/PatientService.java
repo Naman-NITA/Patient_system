@@ -14,7 +14,6 @@ import java.util.List;
 @Service
 public class PatientService {
 
-
     private final PatientRepository patientRepository;
 
     public PatientService(PatientRepository patientRepository) {
@@ -34,15 +33,9 @@ public class PatientService {
                             + patientRequestDTO.getEmail());
         }
 
-
-
-
-        Patient newPatient = patientRepository.save(
+         Patient newPatient = patientRepository.save(
                 PatientMapper.toModel(patientRequestDTO));
-
 
         return PatientMapper.toDTO(newPatient);
     }
-
-
 }
