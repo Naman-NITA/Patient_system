@@ -31,12 +31,7 @@ public class PatientController {
         this.patientService = patientService;
     }
 
-    @GetMapping
-    @Operation(summary = "Get Patients")
-    public ResponseEntity<List<PatientResponseDTO>> getPatients() {
-        List<PatientResponseDTO> patients = patientService.getPatients();
-        return ResponseEntity.ok().body(patients);
-    }
+
 
     @PostMapping
     @Operation(summary = "Create a new Patient")
