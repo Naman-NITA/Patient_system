@@ -1,5 +1,5 @@
 ### update to example server
-PUT http://localhost:4000/patients/336e1d60-f3a5-4c1c-aa04-b9490080f44c
+PUT http://localhost:4000/patients/cbb843e7-6262-4b82-a45e-a646d72fbba3
 Content-Type: application/json
 
 {
